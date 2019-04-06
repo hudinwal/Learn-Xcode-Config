@@ -12,6 +12,10 @@
 		71FDC41E2259349600793BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71FDC41C2259349600793BA4 /* Main.storyboard */; };
 		71FDC4202259349800793BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71FDC41F2259349800793BA4 /* Assets.xcassets */; };
 		71FDC4232259349800793BA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71FDC4212259349800793BA4 /* LaunchScreen.storyboard */; };
+		71FDC4402259405B00793BA4 /* dev_production.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 71FDC43C2259405B00793BA4 /* dev_production.xcconfig */; };
+		71FDC4412259405B00793BA4 /* pre_production.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 71FDC43D2259405B00793BA4 /* pre_production.xcconfig */; };
+		71FDC4422259405B00793BA4 /* dev_pre_production.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 71FDC43E2259405B00793BA4 /* dev_pre_production.xcconfig */; };
+		71FDC4432259405B00793BA4 /* production.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 71FDC43F2259405B00793BA4 /* production.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		71FDC41F2259349800793BA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71FDC4222259349800793BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71FDC4242259349800793BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71FDC43C2259405B00793BA4 /* dev_production.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = dev_production.xcconfig; sourceTree = "<group>"; };
+		71FDC43D2259405B00793BA4 /* pre_production.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = pre_production.xcconfig; sourceTree = "<group>"; };
+		71FDC43E2259405B00793BA4 /* dev_pre_production.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = dev_pre_production.xcconfig; sourceTree = "<group>"; };
+		71FDC43F2259405B00793BA4 /* production.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = production.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 		71FDC4172259349600793BA4 /* Learn Xcode Config */ = {
 			isa = PBXGroup;
 			children = (
+				71FDC43B2259405B00793BA4 /* Configurations */,
 				71FDC4182259349600793BA4 /* AppDelegate.swift */,
 				71FDC41A2259349600793BA4 /* ViewController.swift */,
 				71FDC41C2259349600793BA4 /* Main.storyboard */,
@@ -63,6 +72,17 @@
 			);
 			path = "Learn Xcode Config";
 			sourceTree = "<group>";
+		};
+		71FDC43B2259405B00793BA4 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				71FDC43C2259405B00793BA4 /* dev_production.xcconfig */,
+				71FDC43D2259405B00793BA4 /* pre_production.xcconfig */,
+				71FDC43E2259405B00793BA4 /* dev_pre_production.xcconfig */,
+				71FDC43F2259405B00793BA4 /* production.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -123,8 +143,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				71FDC4232259349800793BA4 /* LaunchScreen.storyboard in Resources */,
+				71FDC4412259405B00793BA4 /* pre_production.xcconfig in Resources */,
+				71FDC4432259405B00793BA4 /* production.xcconfig in Resources */,
 				71FDC4202259349800793BA4 /* Assets.xcassets in Resources */,
+				71FDC4422259405B00793BA4 /* dev_pre_production.xcconfig in Resources */,
 				71FDC41E2259349600793BA4 /* Main.storyboard in Resources */,
+				71FDC4402259405B00793BA4 /* dev_production.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
