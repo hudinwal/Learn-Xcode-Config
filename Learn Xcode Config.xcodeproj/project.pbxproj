@@ -252,6 +252,7 @@
 		};
 		716B59C8225953FA002B2A8E /* Production */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71FDC43F2259405B00793BA4 /* production.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3WG479C5TW;
@@ -325,6 +326,7 @@
 		};
 		716B59CA22595405002B2A8E /* Pre Production */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71FDC43D2259405B00793BA4 /* pre_production.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3WG479C5TW;
@@ -404,6 +406,7 @@
 		};
 		716B59CC22595413002B2A8E /* Dev Pre Production - Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71FDC43E2259405B00793BA4 /* dev_pre_production.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3WG479C5TW;
@@ -483,6 +486,7 @@
 		};
 		716B59CE22595428002B2A8E /* Dev Production */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71FDC43C2259405B00793BA4 /* dev_production.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3WG479C5TW;
