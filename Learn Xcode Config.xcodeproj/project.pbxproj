@@ -253,7 +253,6 @@
 		716B59C8225953FA002B2A8E /* Production */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3WG479C5TW;
 				INFOPLIST_FILE = "Learn Xcode Config/Info.plist";
@@ -327,7 +326,6 @@
 		716B59CA22595405002B2A8E /* Pre Production */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3WG479C5TW;
 				INFOPLIST_FILE = "Learn Xcode Config/Info.plist";
@@ -407,7 +405,6 @@
 		716B59CC22595413002B2A8E /* Dev Pre Production - Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3WG479C5TW;
 				INFOPLIST_FILE = "Learn Xcode Config/Info.plist";
@@ -487,7 +484,6 @@
 		716B59CE22595428002B2A8E /* Dev Production */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3WG479C5TW;
 				INFOPLIST_FILE = "Learn Xcode Config/Info.plist";
