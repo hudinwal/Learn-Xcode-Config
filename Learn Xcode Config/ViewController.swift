@@ -10,11 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+  @IBOutlet var serverURLLabel: UILabel!
+  @IBOutlet var apiSecretLabel: UILabel!
+
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
+    serverURLLabel.text = Bundle.main.infoDictionary?["ServerURL"] as? String ?? "Not Found"
+    apiSecretLabel.text = Bundle.main.infoDictionary?["APISecret"] as? String ?? "Not Found"
   }
-
-
 }
 
